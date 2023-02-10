@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: rgb(42, 42, 42);
-    border-radius: 4px;
+    border-radius: 8px;
     border: solid 1px rgb(92, 92, 92);
     padding: 20px 30px;
 }
@@ -70,6 +70,7 @@ body {
     color: #f8fafc;
     border: none;
     border-radius: 4px;
+    font-size: 16px;
 }
 
 .form-content button:hover {
