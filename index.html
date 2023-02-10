@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <title>FLogin</title>
 </head>
 <body>
-    
+    <div class="form-container">
+        <div class="form-content">
+            <img src="img/treinaweb-logo.svg" alt="logo treinaweb" width="200px">
+            <form>
+                <h2>Acesse sua conta</h2>
+                <div>
+                    <label for="login">CPF ou E-mail</label>
+                    <input type="text" id="login" placeholder="CPF ou E-mail" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="password">Senha</label>
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div>
+                <button type="submit">Entrar na minha conta</button>
+                <div>
+                    <hr>
+                    <span>ou</span>
+                    <hr>
+                    <a href="#"><img src="img/google-icon.png" alt="icone do google">Fazer login com o Google</a>
+                </div>
+            </form>
+            <p>Não tem uma conta? Veja <a href="#">os nossos planos</a></p>
+        </div>    
+    </div>   
 </body>
 </html>
